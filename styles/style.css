@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Luxurious+Roman&family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Luxurious+Roman&family=Poppins:wght@400;500;600&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
 /* common */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1 {
     color: #3a3a3a;
@@ -223,4 +225,51 @@ nav a{
     font-size: 16px;
     margin: 0px;
     padding-bottom: 16px;
+}
+
+/* footer styles */
+
+footer {
+    background-color: #0A0826;
+
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 589px;
+}
+.footer-head {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 3px;
+    margin: 0;
+}
+.footer-main {
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 3px;
+}
+.footer-social {
+    margin: 0px;
+    padding-top: 14px;
+}
+.logo-social {
+    color: white;
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+    padding-left: 16px;
+}
+.logo-social:hover {
+    color: lightcyan;
+    transition: color 0.5s ease-out;
+}
+#facebook {
+    padding-left: 0px;
 }
