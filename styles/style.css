@@ -50,13 +50,33 @@ nav a{
 
 }
 .intro-text {
+    display: flex;
+    flex-direction: column;
     width: 582px;
     height: 270px;
+
 }
-.intro-text p {
+
+.intro-head {
+    color: #3a3a3a;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 16px;
+}
+.intro-head p {
+    margin: 0;
+}
+.intro-body {
     color: #3a3a3a;
     font-size: 16px;
     margin-top: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 26px;
+}
+.intro-body p {
+    margin: 0px;
 }
 .button {
     width: 196px;
@@ -108,7 +128,7 @@ nav a{
     align-items: center;
     border-top: 2px solid #C0CCDA;
     border-bottom: 2px solid #C0CCDA;
-    margin: 255px 165px;
+    margin: 255px 165px 63px;
 }
 
 /* product section styles */
@@ -224,7 +244,7 @@ nav a{
     font-weight: bold;
     font-size: 16px;
     margin: 0px;
-    padding-bottom: 16px;
+    padding-bottom: 26px;
 }
 
 /* footer styles */
